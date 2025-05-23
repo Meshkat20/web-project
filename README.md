@@ -1,1 +1,1 @@
-https://github.com/Meshkat20/web-project/settings
+https://github.com/apps/desktop
