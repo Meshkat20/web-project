@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #c8e6c1;
+      color: #111;
+    }
+
+    header {
+      background-color: #eeac1c;
+      color: rgb(0, 0, 0);
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 10px;
+      background-color: #111;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .about, .skills, .projects, .contact {
+      margin-bottom: 40px;
+    }
+
+    .about img {
+      max-width: 550px;
+      border-radius: 50%;
+      width: 550px;
+      height: 550px;
+      object-fit: cover;
+      border-radius: 8px;
+      display: block;
+      margin: 20px auto;
+    }
+    .Education ul {
+      list-style: square;
+      padding-left: 20px;
+    }
+
+    .skills ul {
+      list-style: square;
+      padding-left: 20px;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .project-card {
+      background: #d9c6df;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      background-color: #eeac1c;
+      color: rgb(0, 0, 0);
+      padding: 15px 0;
+    }
+
+    @media (max-width: 1000px) {
+      nav ul {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      nav ul li {
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Alimuzzaman Meskat</h1>
+    <p>Web Developer | Designer | Creator</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <img src="photo_2025-03-18_00-42-09.jpg" alt="Profile Photo">
+      <p>Hello! I'm a passionate web developer. I love building responsive and user-friendly websites. I specialize in HTML, CSS, and JavaScript.</p>
+    </section>
+    <section id="Education" class="Education">
+      <h2>Education</h2>
+      <ul>
+        <li>University of Global Village, Barishal</li>
+        <li>Govt. Syed Hatem Ali College, Barishal</li>
+        <li>Barisal Zilla School, Barishal</li>
+        <li>Mallika Kindergarten, Barishal</li>
+      </ul>
+
+    </section><br>
+
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5 & CSS3</li>
+        <li>JavaScript (ES6+)</li>
+        <li>Responsive Web Design</li>
+        <li>Git & GitHub</li>
+        <li>Basic React.js</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Project One</h3>
+          <p> <b>Description:</b> 
+            This is a fully responsive e-commerce website built to simulate a real online shopping experience. The project includes essential features such as product listings, shopping cart, user authentication, and order placement. It was designed to provide a clean and user-friendly interface for both customers and administrators.
+            
+            <br><b>Key features</b>
+            Home Page with featured products and categories
+            
+            Product Page with images, prices, descriptions, and customer ratings
+            
+            Shopping Cart with add/remove/update quantity functionality
+            
+            User Authentication (Sign Up / Login / Logout)
+            
+            Order Placement and confirmation system
+            
+            Admin Dashboard for managing products and orders
+            
+            Responsive Design for mobile, tablet, and desktop views
+            
+          <br> <b>Technologies Used:</b>
+            Frontend: HTML, CSS, JavaScript (vanilla or React.js)
+            
+            Backend: Node.js with Express (or PHP/Python depending on preference)
+            
+            Database: MongoDB / MySQL
+            
+            Authentication: JWT / Session
+            
+            Others: GitHub for version control, hosted on Vercel/Netlify or local server
+            
+          </p>
+        </div>
+        <div class="project-card">
+          <h3>Project Two</h3>
+          <p> <b>Description:</b> 
+            This is a fully responsive e-commerce website built to simulate a real online shopping experience. The project includes essential features such as product listings, shopping cart, user authentication, and order placement. It was designed to provide a clean and user-friendly interface for both customers and administrators.
+            
+            <br><b>Key features</b>
+            Home Page with featured products and categories
+            
+            Product Page with images, prices, descriptions, and customer ratings
+            
+            Shopping Cart with add/remove/update quantity functionality
+            
+            User Authentication (Sign Up / Login / Logout)
+            
+            Order Placement and confirmation system
+            
+            Admin Dashboard for managing products and orders
+            
+            Responsive Design for mobile, tablet, and desktop views
+            
+          <br> <b>Technologies Used:</b>
+            Frontend: HTML, CSS, JavaScript (vanilla or React.js)
+            
+            Backend: Node.js with Express (or PHP/Python depending on preference)
+            
+            Database: MongoDB / MySQL
+            
+            Authentication: JWT / Session
+            
+            Others: GitHub for version control, hosted on Vercel/Netlify or local server
+            
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>Email: alimuzzamanmeskat@gmail.com</p>
+      <p>Phone: +8801741442013</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Alimuzzaman Meskat. All rights reserved.</p>
+  </footer>
+</body>
+</html>
